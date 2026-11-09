@@ -1,0 +1,9 @@
+CPU: AMD Ryzen 7 7840HS w/ Radeon 780M Graphics (8 cores, 16 logical threads)
+OS: Windows 11
+Compiler: MinGW-w64 g++ 15.2.0 (x86_64-w64-mingw32)
+Flags: -std=c++20 -O2 -Wall -Wextra
+Timing: std::chrono::steady_clock
+Warm-up: 5 runs
+Repetitions: 30 runs per measurement point
+Date: 2026-11-09
+
