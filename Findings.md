@@ -325,6 +325,8 @@ This study presented rigorous mathematical formulations, formal proofs, and empi
 - **Codon Optimization**: An exact Aho-Corasick dynamic programming formulation with dominance pruning achieves $O(n^2 \cdot |Q|)$ complexity, designing full-length GFP (714 bp) avoiding 15 restriction sites in under 50 milliseconds with zero optimality gap.
 - **Merkle Trees**: An interleaved alphabetic Merkle tree utilizing Garsia-Wachs achieves optimal alphabetic cost identical to Knuth DP with a $62\times$ speedup, cutting hot witness sizes by $52.9\%$ and amortizing batch block proofs by $79.9\%$.
 
+***github link*** : https://github.com/saprax9s/daa.git
+
 All experimental data, C++20 implementations, Python oracles, and standalone Rust ports are fully reproducible via a single command:
 ```powershell
 cd M:\DAA; .\run_all.bat
